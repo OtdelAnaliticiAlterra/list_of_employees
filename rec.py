@@ -2,10 +2,10 @@ import os.path
 
 import pandas as pd
 def rec():
-    path = os.sep * 2 + os.path.join("tg-storage01", "Аналитический отдел", "Личные", "Федорова", "Служба персонала",
-                                     "Действующие сотрудники", "Рекомендации", "РЕКОМЕНДАЦИИ.xlsx")
-    file_path_employees = os.sep * 2 + os.path.join("tg-storage01", "Служба персонала", "Общие", "Отдел аналитики", "Действующие сотрудники.xlsx")
+    path = os.sep * 2 + os.path.join("tg-storage01", "Служба персонала", "Рабочие", "Кадровая документация", "Рекомендации", "РЕКОМЕНДАЦИИ.xlsx")
+    file_path_employees = os.sep * 2 + os.path.join("tg-storage01", "Служба персонала", "Общие", "Кадровый учет", "Действующие сотрудники.xlsx")
 
+    # file_path_employees = os.sep * 2 + os.path.join("tg-storage01", "Служба персонала", "Общие", "Отдел аналитики", "Действующие сотрудники.xlsx")
     # file_path_employees = os.sep * 2 + os.path.join("tg-storage01", "Аналитический отдел", "Личные", "Федорова",
     #                                                     "Служба персонала", "Действующие сотрудники",
     #                                                     "Действующие сотрудники.xlsx")

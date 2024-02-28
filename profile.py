@@ -13,7 +13,10 @@ def profile():
     #                                                 "Действующие сотрудники.xlsx")
     path_to_profiles = os.sep * 2 + os.path.join("tg-storage01", "Служба персонала", "Общие", "Кадровый учет",
                                               "сканы анкет")
-    file_path_employees = os.sep * 2 + os.path.join("tg-storage01", "Служба персонала", "Общие", "Отдел аналитики", "Действующие сотрудники.xlsx")
+    file_path_employees = os.sep * 2 + os.path.join("tg-storage01", "Служба персонала", "Общие", "Кадровый учет", "Действующие сотрудники.xlsx")
+
+    # file_path_employees = os.sep * 2 + os.path.join("tg-storage01", "Служба персонала", "Общие", "Отдел аналитики", "Действующие сотрудники.xlsx")
+
 
     # Создаем пустой список для хранения результатов
     files_list = []

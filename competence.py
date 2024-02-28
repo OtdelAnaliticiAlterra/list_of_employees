@@ -13,7 +13,8 @@ def competence():
     #                                               "Служба персонала", "Действующие сотрудники", "Действующие сотрудники.xlsx")
     file_path_comp = os.sep * 2 + os.path.join("tg-storage01", "Служба персонала", "Общие", "Отдел аналитики", "Выгрузки. Действующие сотрудники", "Компетенции",
                                                   "Оценки компетенций сотрудников - действующие сотрудники (XLSX).xlsx")
-    file_path_employees = os.sep * 2 + os.path.join("tg-storage01", "Служба персонала", "Общие", "Отдел аналитики", "Действующие сотрудники.xlsx")
+    file_path_employees = os.sep * 2 + os.path.join("tg-storage01", "Служба персонала", "Общие", "Кадровый учет", "Действующие сотрудники.xlsx")
+    # file_path_employees = os.sep * 2 + os.path.join("tg-storage01", "Служба персонала", "Общие", "Отдел аналитики", "Действующие сотрудники.xlsx")
 
     # загрузка файлов
     df_emp = pd.read_excel(file_path_employees, engine='openpyxl')

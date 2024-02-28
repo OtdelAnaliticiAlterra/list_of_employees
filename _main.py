@@ -20,7 +20,7 @@ while True:
     #
     # print('Завершено:', datetime.now())
     # break
-    if datetime.now().hour == 15:
+    if datetime.now().hour == 7:
         print('Старт:', datetime.now())
         employees()
         education()

@@ -9,7 +9,9 @@ def work_exp():
                                                "Выгрузки. Действующие сотрудники", "Предыдущие места работы", "Предыдущие места работы.xlsx")
     # file_path_employees = os.sep * 2 + os.path.join("tg-storage01", "Аналитический отдел", "Личные", "Федорова",
     #                                               "Служба персонала", "Действующие сотрудники", "Действующие сотрудники.xlsx")
-    file_path_employees = os.sep * 2 + os.path.join("tg-storage01", "Служба персонала", "Общие", "Отдел аналитики", "Действующие сотрудники.xlsx")
+    file_path_employees = os.sep * 2 + os.path.join("tg-storage01", "Служба персонала", "Общие", "Кадровый учет", "Действующие сотрудники.xlsx")
+
+    # file_path_employees = os.sep * 2 + os.path.join("tg-storage01", "Служба персонала", "Общие", "Отдел аналитики", "Действующие сотрудники.xlsx")
 
     # загрузка файлов
     df_emp = pd.read_excel(file_path_employees)

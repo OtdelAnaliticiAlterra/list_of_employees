@@ -12,7 +12,9 @@ def employees():
     #                                           "Служба персонала", "Действующие сотрудники")
     file_path_for_copy = os.sep * 2 + os.path.join("tg-storage01", "Служба персонала", "Общие", "Отдел аналитики",
                                                    "Выгрузки. Действующие сотрудники", "Список ЗУП", "Действующие сотрудники XLSX.xlsx")
-    file_path_employees = os.sep * 2 + os.path.join("tg-storage01", "Служба персонала", "Общие", "Отдел аналитики")
+    file_path_employees = os.sep * 2 + os.path.join("tg-storage01", "Служба персонала", "Общие", "Кадровый учет")
+
+    # file_path_employees = os.sep * 2 + os.path.join("tg-storage01", "Служба персонала", "Общие", "Отдел аналитики")
     file_to_change = os.sep * 2 + os.path.join("tg-storage01", "Служба персонала", "Общие", "Отдел аналитики",
                                                "Выгрузки. Действующие сотрудники", "Список ЗУП", "Дата приема.xlsx")
     file_name = "Действующие сотрудники.xlsx"

@@ -20,8 +20,9 @@ def education():
     file_path_res = os.sep * 2 + os.path.join("tg-storage01", "Служба персонала", "Общие", "Отдел аналитики",
                                               "Выгрузки. Действующие сотрудники", "Образование",
                                               "Образование.xlsx")
+    file_path_employees = os.sep * 2 + os.path.join("tg-storage01", "Служба персонала", "Общие", "Кадровый учет", "Действующие сотрудники.xlsx")
 
-    file_path_employees = os.sep * 2 + os.path.join("tg-storage01", "Служба персонала", "Общие", "Отдел аналитики", "Действующие сотрудники.xlsx")
+    # file_path_employees = os.sep * 2 + os.path.join("tg-storage01", "Служба персонала", "Общие", "Отдел аналитики", "Действующие сотрудники.xlsx")
 
     df_edu = pd.read_excel(file_path_edu)
     df_edu = df_edu.sort_values(['Табельный номер (с префиксами)', 'Окончание'], ascending=(True, False))
