@@ -39,3 +39,6 @@ wheel==0.38.4
 wsproto==1.2.0
 XlsxWriter==3.1.9
 yarl==1.9.4
+python-dotenv==1.0.1
+pyTelegramBotAPI==4.22.1
+git+https://github.com/OtdelAnaliticiAlterra/TelegramBotLogger.git
